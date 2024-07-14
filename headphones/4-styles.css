@@ -1,0 +1,53 @@
+/* Import styles from previous tasks if necessary */
+
+/* Footer section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer .footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-logo img {
+    max-width: 100px;
+}
+
+.footer .footer-menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer .footer-menu li {
+    margin-right: 20px;
+}
+
+.footer .footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer .footer-menu li a:hover {
+    color: #FF6565;
+}
+
+.footer .footer-info {
+    text-align: right;
+    flex-basis: 100%;
+    margin-top: 10px;
+}
+
+.footer .footer-info p {
+    font-size: 0.9rem;
+}

@@ -1,0 +1,44 @@
+/* Import styles from previous task if necessary */
+
+/* What we do section */
+.what-we-do {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.what-we-do .container {
+    text-align: center;
+}
+
+.what-we-do h2 {
+    margin-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: calc(33.33% - 20px);
+    margin: 20px;
+    text-align: center;
+}
+
+.service .icon {
+    display: inline-block;
+    font-family: 'holberton_school-icon';
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #666;
+}

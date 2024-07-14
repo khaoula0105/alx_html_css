@@ -1,0 +1,30 @@
+/* Import styles from previous tasks if necessary */
+
+/* Our results section */
+.our-results {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.our-results .container {
+    text-align: center;
+}
+
+.our-results h2 {
+    margin-bottom: 30px;
+}
+
+/* CSS Drawn Pentagons */
+.pentagons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pentagon {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: #FF6565; /* Adjust color as needed */
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin: 20px;
+}

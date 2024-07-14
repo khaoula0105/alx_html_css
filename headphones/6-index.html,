@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones Landing Page - CSS Drawn Pentagons</title>
+    <link rel="stylesheet" href="6-styles.css">
+</head>
+<body>
+    <header class="header">
+        <!-- Header content as per previous tasks -->
+    </header>
+
+    <section class="our-results">
+        <div class="container">
+            <h2>Our Results</h2>
+            <div class="pentagons">
+                <div class="pentagon"></div>
+                <div class="pentagon"></div>
+                <div class="pentagon"></div>
+                <!-- Add more pentagons as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Other sections of your webpage -->
+
+    <script src="6-scripts.js"></script>
+</body>
+</html>
